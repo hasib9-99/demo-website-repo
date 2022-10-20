@@ -92,3 +92,39 @@ nav{
 }
 
 /* banner part end  */
+
+
+/* Work part start */
+.work_main{
+    display: flex;
+    height: 660px;
+    /* justify-content: scenter; */
+    align-items: center;
+    background-color: #F4F6FC;
+    ;
+}
+.work_left{
+    width: 40%;
+    margin-left: 165px;
+}
+.work_left h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+.work_left p{
+    padding-bottom: 16px;
+}
+.work_right{
+    width: 60%;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 128px;
+}
+.grid_item p{
+    padding: 10px 0;
+}
+
+
+/* Work part end */
