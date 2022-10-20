@@ -98,13 +98,12 @@ nav{
 .work_main{
     display: flex;
     height: 660px;
-    /* justify-content: scenter; */
-    align-items: center;
     background-color: #F4F6FC;
     ;
 }
 .work_left{
     width: 40%;
+    margin-top: 128px;
     margin-left: 165px;
 }
 .work_left h2{
@@ -113,17 +112,21 @@ nav{
 }
 .work_left p{
     padding-bottom: 16px;
+    color: #282938 ;
+    opacity: 0.7; 
 }
 .work_right{
     width: 60%;
     display: grid;
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 25px;
+    row-gap: 39px;
     grid-template-columns: auto auto;
     padding: 128px;
 }
 .grid_item p{
     padding: 10px 0;
+    color: #282938;
+    opacity: 0.7;
 }
 
 
