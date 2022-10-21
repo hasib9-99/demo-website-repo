@@ -135,11 +135,18 @@ nav{
 
 
 /* project part start */
+#project{
+    padding: 128px 0;
+}
 .project_heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 128px 0 64px 0;
+    margin-bottom:64px;
+}
+.project_heading a{
+    color: #282938;
+    font-weight: 500
 }
 .card_main{
     display: flex;
@@ -156,10 +163,10 @@ nav{
     background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
     width: 0%;
     height: 100%;
-    opacity: 0;
 }
 .card_inner{
     margin: 312px 35px 70px 48px;
+    opacity: 0;
 }
 .card_inner h3{
     color: white;
@@ -181,11 +188,11 @@ nav{
 }
 .card_left:hover .card_overlay{
     width: 50%;
-    opacity: 1;
     transition: 0.5s;
 }
 .card_left:hover .card_inner{
-    transition-delay: 1s;
+    opacity: 1;
+    transition-delay: 0.2s;
 }
 
 
@@ -194,6 +201,7 @@ nav{
 }
 .card_right_top{
     position: relative;
+    height: 50%;
 }
 .card_top_overlay{
     position: absolute;
@@ -225,9 +233,51 @@ nav{
     padding-top: 10px;
 }
 
-
-
-
-
-
 /* project part end */
+
+
+/* Features part start  */
+#features{
+    background-color: #F4F6FC;
+}
+.features_hade{
+    width: 630px;
+    margin: auto;
+    text-align: center;
+    padding: 128px 0 47px 0;
+}
+.features_hade p{
+    color: #282938;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.features_hade h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 32px;
+    row-gap: 24px;
+    padding-bottom: 128px;
+}
+.card_item{
+    background-color: white;
+    padding: 58px 32.82px 48px 48px;
+}
+.card_item h3{
+    padding: 22px 0 12px 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #282938;
+}
+.card_item p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+}
+
+/* Features part start  */
