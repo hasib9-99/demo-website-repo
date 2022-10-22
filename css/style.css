@@ -402,6 +402,25 @@ nav{
     padding-left: 32px;
     color: rgba(244, 246, 252, 0.5);
 }
+.bulding_form form .submit_btn{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 41px;
+    margin-top: 39px;
+}
+.form_link{
+    margin: 28px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
 
 
 /* Building stellar part end  */
