@@ -357,6 +357,8 @@ nav{
 }
 .building_banner{
     height: 691px;
+    margin-bottom: 128px ;
+    position: relative;
 }
 
 .building_banner img{
@@ -366,6 +368,7 @@ nav{
 }
 .bulding_form{
     width: 50%;
+    height: 691px;
     background-color: #1C1E53;
 }
 .bulding_form p{
@@ -420,6 +423,36 @@ nav{
     color: white;
     font-weight: 500;
     font-size: 18px;
+}
+.building_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(28, 30, 83, 0.5);
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+}
+.building_main:hover .building_overlay{
+    height: 100%;
+    opacity: 1;
+    transition: 0.5s;
+}
+.building_inner{
+    width: 464px;
+    height: 334px;
+    margin: 96px;
+
+}
+.building_inner h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+}
+.building_inner p{
+    font-weight: 500;
+    line-height: 28px;
 }
 
 
