@@ -546,8 +546,6 @@ footer{
     font-size: 16px;
 
 }
-
-
 .footer_right{
     width: 55%;
 }
@@ -577,3 +575,23 @@ footer{
     
 }
 /* footer part end  */
+
+
+/* footer navbar part start */
+.footer_nav_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 92px;
+    font-weight: 600;
+}
+.footer_nav_main ul{
+    display: flex;
+    align-items: center;
+}
+.footer_nav_main ul li a{
+    color: #282938;
+    padding: 16px;
+}
+/* footer navbar part end */
