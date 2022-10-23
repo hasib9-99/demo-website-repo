@@ -214,6 +214,8 @@ nav{
     display: flex;
     align-items: center;
     margin-top: 48px;
+    margin-bottom: 128px;
+    
 }
 .count{
     width: 20%;
@@ -238,3 +240,37 @@ nav{
 }
 /* working logo part end  */
 /* The benefits of working part end */
+
+
+/* Meet our team part start */
+#team{
+    background-color: #F4F6FC;
+    padding: 128px 0;
+}
+.team_main h2{
+    margin-bottom:48px;
+    text-align: center;
+    color: #282938;
+}
+.team_cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 32px;
+}
+.team_card{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 48px 0;
+}
+.team_card h4{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #1D2130;
+}
+.team_card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(29, 33, 48, 0.7);
+}
+/* Meet our team part end */
