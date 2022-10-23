@@ -20,7 +20,6 @@ nav{
     height: 92px;
     width: 100%;
     background-color: #1C1E53;
-    position: absolute;
 }
 .container{
     width: 1280px;
@@ -54,3 +53,44 @@ nav{
     color: black;
 }
 /* navbar end  */
+
+
+/* Our designs solve problems part start  */
+.flex_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 128px;
+}
+.flex_hade{
+    width: 595px;
+}
+.flex_hade .topic{
+    color: #282938;
+    font-weight: 500;
+    font-size: 18px;
+}
+.flex_hade h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #282938;
+    padding-bottom: 31px;
+}
+.flex_titel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938cc;
+}
+.flex_img{
+    width: 547px;
+}
+.flex_img img{
+    width: 547px;
+}
+
+
+/* Our designs solve problems part end  */
+
