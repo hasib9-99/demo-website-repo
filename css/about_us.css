@@ -209,6 +209,32 @@ nav{
     color: rgba(40, 41, 56, 0.7);
 }
 
-
-
+/* working logo part start  */
+.working_nav{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+.count{
+    width: 20%;
+}
+.count h2{
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+}
+.count p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 41, 56, 0.7);
+}
+.working_logo{
+    width: 80%; 
+}
+.working_logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* working logo part end  */
 /* The benefits of working part end */
