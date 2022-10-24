@@ -132,32 +132,29 @@ nav{
 }
 .pricing_card:hover{
     background-color: #1C1E53;
+    transition: 0.5s;
 }
 .pricing_card:hover.pricing_card h4{
     color: white;
+    transition: 0.5s;
 }
 .pricing_card:hover.pricing_card h2{
     color: white;
+    transition: 0.5s;
 }
 .pricing_card:hover.pricing_card p{
     color: white;
+    transition: 0.5s;
 }
 .pricing_card:hover .price_link{
     color: #FCD980;
+    transition: 0.5s;
 }
 .pricing_card:hover .price_btn{
     color: rgb(2, 2, 2);
     background-color: #FCD980;
+    transition: 0.5s;
 }
-
-
-
-
-
-
-
-
-
 /* Our Pricing Plans part end  */
 
 
