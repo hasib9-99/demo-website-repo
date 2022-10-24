@@ -164,15 +164,16 @@ nav{
 
 
 
-/* Our designs solve problems part end  */
+/* Free Revision Rounds patr start */
+/* use client  part end  */
 .flex_box{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 128px;
-    padding: 64px;
+    padding: 128px;
 }
+
 .flex_hade{
     width: 595px;
 }
@@ -200,4 +201,8 @@ nav{
 .flex_img img{
     width: 547px;
 }
+#revision{
+    background-color: #F4F6FC;
+}
 /*Use Client-first part end  */
+/* Free Revision Rounds patr end  */
