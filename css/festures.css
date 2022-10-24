@@ -171,7 +171,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 128px;
+    padding: 128px 0;
 }
 
 .flex_hade{
@@ -203,6 +203,9 @@ nav{
 }
 #revision{
     background-color: #F4F6FC;
+}
+#delivery{
+    background-color: rgba(252, 217, 128, 0.1);
 }
 /*Use Client-first part end  */
 /* Free Revision Rounds patr end  */
