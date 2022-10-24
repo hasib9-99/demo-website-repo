@@ -1,0 +1,126 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+/* common css end  */
+
+
+/* navbar part start */
+nav{
+    height: 92px;
+    width: 100%;
+    background-color: #1C1E53;
+    position: absolute;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    padding: 0 16px;
+    font-size: 16px;
+    color: white;
+}
+.menu ul li .btn{
+    padding: 16px 48px;
+    border: 1px solid white;
+    border-radius: 41px;
+    transition: 0.5s;
+}
+.menu ul li .btn:hover{
+    background-color: #FCD980;
+    border: 1px solid transparent;
+    color: black;
+}
+/* navbar end  */
+
+
+/* banner part start  */
+#banner{
+    background-color: #1C1E53;
+    padding: 200px 0;
+}
+.banner_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 218 160 128 160;
+}
+.banner_texr{
+    width: 582px;
+    color: white;
+}
+.banner_texr h2{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.banner_btn ul {
+    margin-top: 79px;
+    display: flex;
+    align-items: center;  
+}
+.banner_btn ul li a{
+    color: white;
+}
+.banner_btn ul li .btn{
+    padding: 16px 56px;
+    color: black;
+    margin-right: 40px;
+    background-color: #FCD980;
+    border-radius: 41px;
+}
+
+/* banner part end  */
+
+
+/* working logo part start  */
+.working_nav{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 128px;
+    
+}
+.count{
+    width: 20%;
+}
+.count h2{
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+}
+.count p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 41, 56, 0.7);
+}
+.working_logo{
+    width: 80%; 
+}
+.working_logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* working logo part end  */
