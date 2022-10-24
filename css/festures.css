@@ -98,8 +98,7 @@ nav{
 .working_nav{
     display: flex;
     align-items: center;
-    margin-top: 48px;
-    margin-bottom: 128px;
+    margin-top: 96px;
     
 }
 .count{
@@ -124,3 +123,81 @@ nav{
     justify-content: space-between;
 }
 /* working logo part end  */
+
+
+/* The benefits of working part start */
+.working_main{
+    margin-top: 96px;
+}
+.working_main h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+    margin: 0 auto;
+    width: 630px;
+}
+.working_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 48px 0;
+    column-gap: 32px;
+}
+.working_card{
+    background-color: #F4F6FC;
+    padding: 50px;
+}
+.working_card h4{
+    font-weight: 500;
+    font-size: 24px;
+    color: #282938;
+    margin: 26px 0 12px 0;
+}
+.working_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+/* The benefits of working part end */
+
+
+
+/* Our designs solve problems part end  */
+.flex_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 128px;
+    padding: 64px;
+}
+.flex_hade{
+    width: 595px;
+}
+.flex_hade .topic{
+    color: #282938;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.flex_hade h2{
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+    padding-bottom: 31px;
+}
+.flex_titel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938cc;
+}
+.flex_img{
+    width: 547px;
+}
+.flex_img img{
+    width: 547px;
+}
+/*Use Client-first part end  */
