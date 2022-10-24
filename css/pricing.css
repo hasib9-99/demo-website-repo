@@ -1,0 +1,265 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+/* common css end  */
+
+
+/* navbar part start */
+nav{
+    height: 92px;
+    width: 100%;
+    background-color: #1C1E53;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    padding: 0 16px;
+    font-size: 16px;
+    color: white;
+}
+.menu ul li .btn{
+    padding: 16px 48px;
+    border: 1px solid white;
+    border-radius: 41px;
+    transition: 0.5s;
+}
+.menu ul li .btn:hover{
+    background-color: #FCD980;
+    border: 1px solid transparent;
+    color: black;
+}
+/* navbar end  */
+
+
+/* Our Pricing Plans part start  */
+.pricing_hade h2{
+    text-align: center;
+    color: #282938;
+    font-weight: 600;
+    font-size: 48px;
+    padding: 128px 0 16px 0;
+}
+.price{
+    display: flex;
+    align-items: center;
+
+}
+.price a {
+    margin-left: 8px;
+}
+.pricing_hade p{
+    text-align: center;
+    color: rgba(40, 41, 56, 0.7);
+}
+.pricing_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 32px;
+    margin: 64px 0;
+}
+.pricing_card{
+    background-color: #F4F6FC;
+    height: 745px;
+    padding-top: 64px;
+    padding-left: 48px;
+    border-radius: 12px;
+    position: relative;
+}
+.price h2{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+}
+.price_titel{
+    color: rgba(40, 41, 56, 0.7);
+    font-weight: 500;
+    line-height: 28px;
+    padding: 8px 0 78px 0;
+    
+}
+.pricing_card h4{
+    color:  #282938;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 28px;
+}
+.pricing_card ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.pricing_card ul li p {
+    padding-left: 12px;
+    color: #1C1E53;
+    font-weight: 400;
+}
+.pricing_card ul li i{
+    color: #97DAAD;
+}
+.price_btn{
+    align-content: center;
+    color: white;
+    background-color: #282938;
+    padding: 16px 77.5px;
+    border-radius: 41px;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+.pricing_card:hover{
+    background-color: #1C1E53;
+}
+.pricing_card:hover.pricing_card h4{
+    color: white;
+}
+.pricing_card:hover.pricing_card h2{
+    color: white;
+}
+.pricing_card:hover.pricing_card p{
+    color: white;
+}
+.pricing_card:hover .price_link{
+    color: #FCD980;
+}
+.pricing_card:hover .price_btn{
+    color: rgb(2, 2, 2);
+    background-color: #FCD980;
+}
+
+
+
+
+
+
+
+
+
+/* Our Pricing Plans part end  */
+
+
+/* footer part start  */
+footer{
+    background-color: #1C1E53;
+    height: 397px;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_left{
+    width: 45%;
+}
+.footer_left .logo{
+    width: 156px;
+    height: 38px;
+    margin: 100px 0 22px 0;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.footer_left p{
+    color: rgba(255, 255, 255, 0.8);
+    width: 399px;
+}
+.footer_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FCD980;
+    padding: 17px 0;
+    width: 100%;
+    margin-top: 104px;
+}
+.footer_email{
+    width: 40%;
+}
+.footer_call{
+    width: 60%;
+}
+.footer_bottom h4{
+    color: #282938;
+    margin-left: 37px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer_bottom p{
+    color: rgba(40, 41, 56, 0.8);
+    margin-left: 37px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.footer_right{
+    width: 55%;
+}
+.footer_right{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.footer_right h2{
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.footer_right p{
+    color: hsla(225, 57%, 97%, 0.8);
+    width: 399px;
+}
+.footer_right ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-top: 25px;
+}
+.footer_right ul li a{
+    color: white;
+    padding-right: 25px;
+    
+}
+/* footer part end  */
+
+
+/* footer navbar part start */
+.footer_nav_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 92px;
+    font-weight: 600;
+}
+.footer_nav_main ul{
+    display: flex;
+    align-items: center;
+}
+.footer_nav_main ul li a{
+    color: #282938;
+    padding: 16px;
+}
+/* footer navbar part end */
