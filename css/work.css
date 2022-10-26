@@ -1,0 +1,130 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+/* common css end  */
+
+
+/* navbar part start */
+nav{
+    height: 92px;
+    width: 100%;
+    background-color: #1C1E53;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    padding: 0 16px;
+    font-size: 16px;
+    color: white;
+}
+.menu ul li .btn{
+    padding: 16px 48px;
+    border: 1px solid white;
+    border-radius: 41px;
+    transition: 0.5s;
+}
+.menu ul li .btn:hover{
+    background-color: #FCD980;
+    border: 1px solid transparent;
+    color: black;
+}
+/* navbar end  */
+
+
+/* our work portfolio part start  */
+#work_hade{
+    background-color: #F4F6FC;
+    padding: 96px 0;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio p{
+    color: rgba(40, 41, 56, 0.7);
+    font-weight: 500;
+    width: 733px;
+    margin: 12px auto; 
+}
+.portfolio h2{
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+    margin-bottom: 12px;
+}
+.portfolio ul{
+    display: flex;
+    margin: 20px auto;
+    width: 147.53px;
+}
+.portfolio ul li a{
+    padding: 0 12px;
+    color: #282938;
+}
+
+/* our work portfolio part end  */
+
+
+/* all template part start  */
+#template{
+    margin: 128px 0;
+}
+ul{
+    display: flex;
+    margin: 48px auto;
+    width: 473px;
+}
+ul li a{
+    padding: 0 12px;
+    color: #282938;
+    font-weight: 500;
+    font-size: 16px;
+}
+.blue{
+    color: #2405F2;
+}
+.template_cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 64px;
+}
+.template_card h2{
+    font-weight: 600;
+    font-size: 38px;
+    margin-top: 12px;
+}
+.template_card p{
+    color: rgba(40, 41, 56, 0.7);
+    margin: 24px 0;
+}
+.template_card a{
+    color: #282938;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* all template part end  */
